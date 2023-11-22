@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Charmonman:wght@700&family=Space+Mono:ital@0;1&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: 'Space Mono', monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: rgb(227,179,9);
+background: linear-gradient(118deg, rgba(227,179,9,1) 0%, rgba(225,152,45,1) 33%, rgba(255,139,0,1) 51%, rgba(255,46,0,1) 74%, rgba(255,0,73,1) 100%);
+}
+
+.main{
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    height: auto;
+    width: 50%;
+}
+
+.row{
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+input{
+    width: 85%;
+}
+
+#category{
+    text-align: center;
+}
+
+#result{
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+}
